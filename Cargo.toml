@@ -6,5 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-raylib = { git = "https://github.com/litten2up/raylib-rs/", branch = "4.2.0"}
 structopt = {version = "0.3.26"}
+
+[dependencies.raylib]
+version = "4.5.0"
+git = "https://github.com/litten2up/raylib-rs"
+branch = "4.5.0"
